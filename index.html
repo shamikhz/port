@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=0.8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="portfolio">My Portfolio</header>
+    <!-- <header>
+        <nav>
+            <div class="left">Shamikh Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Past projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> -->
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi,my name is <span class="purple">Shamikh Zafar</span>.
+                <div class="aboutme">I am a passionate about my work.I am a
+                    <span id="element" class="purple"></span>
+                </div>
+
+
+            </div>
+            <div class="rightSection">
+                <img src="kindpng_41514.png" alt="">
+            </div>
+        </section>
+
+        <div class="button-container">
+            <!-- Download button -->
+            <a href="SHAMIKH ZAFAR.pdf" class="download-button" download>Download Resume</a>
+
+            <!-- GitHub button -->
+            <a href="https://github.com/shamikhz?tab=repositories" class="github-button" target="_blank">View GitHub</a>
+        </div>
+        <section class="secondSection">
+            <div class="projects">
+                <h1><u>PROJECTS</u></h1>
+                <div class="aboutprojects">               <ol>
+                    <li>Major project in Bachelor of computer application(BCA) Feb 2022 - May 2022.
+                        The topic is <a href="https://shamikhz.github.io/Major-project/">Tour and Travel</a>. I have
+                        made this using HTML, CSS, JAVASCRIPT, and PHP.
+                    </li><br>
+                    <li>Mini project in BCA Oct 2021 - Dec 2021.
+                        The topic is the <a href="https://shamikhz.github.io/Mini-project/">Registration Form</a> made
+                        by using HTML, CSS, and PHP.
+                    </li>
+                </ol>
+            </div>
+            </div>
+        </section>
+
+        <!-- footer section starts -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h1>Contact Info</h1>
+                    <a href="tel:+919336471346"> <i class="fas fa-phone"></i> +91 9336471346 </a>
+                    <a href="#"> <i class="fas fa-envelope"></i> shamikhzafar0@gmail.com </a>
+                    <a href="#"> <i class="fas fa-map"></i> Lucknow, india <a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-End Web Developer.', 'UI/UX Designer.', 'Full Stack Web Developer.'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
